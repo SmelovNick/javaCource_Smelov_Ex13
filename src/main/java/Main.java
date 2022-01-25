@@ -14,7 +14,6 @@ public class Main {
         poesy.insert(0, "Выхожу один я на дорогу,\n");
         System.out.println(poesy);
 
-        Map<String, String> jsonvalues = new HashMap<>();
         String json = "{\"fullName\":\"Роберт Джеймс Смит\",\"age\":\"62\",\"profession\":\"musician\"}";
         Pattern patternKeyValue = Pattern.compile("\"[a-zA-Z]*\":\"[а-яА-Яa-zA-Z0-9\\s]*\"");
         Map<String, String> keyValues = new TreeMap<>();
